@@ -29,3 +29,44 @@
    ```bash
    git clone https://github.com/dendve8/backdorApkChecker.git
    cd backdorApkChecker
+   ```
+
+2. Buka project di **Android Studio**
+
+3. Build & Run di perangkat/emulator Android
+
+---
+
+## ⚙️ Teknologi
+
+- Java (Android)
+- Android SDK 24+
+- RecyclerView, CardView
+- Material UI
+- PackageManager API
+
+---
+
+## 🔒 Izin yang Digunakan
+
+Aplikasi ini tidak mengakses data pribadi atau mengirim data ke server. Semua analisis dilakukan secara lokal di perangkat.
+
+---
+
+## 🧠 Developer Note
+
+> Aplikasi ini dibuat untuk **edukasi dan keamanan pribadi**, bukan untuk aktivitas ilegal.
+
+---
+
+## 👨‍💻 Author
+
+Made with ❤️ by [@dendve8](https://github.com/dendve8/)
+
+---
+
+## 📄 License
+
+MIT License © 2025 — SecureLabs
+
+
