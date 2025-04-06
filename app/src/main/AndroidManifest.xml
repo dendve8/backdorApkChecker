@@ -1,0 +1,29 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.securelabs.viruschecker">
+
+    <application
+        android:allowBackup="true"
+        android:label="Virus Checker"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        <!-- Entry utama untuk aplikasi -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!-- Activity untuk menampilkan hasil -->
+        <activity android:name=".InstalledAppsActivity" />
+
+        <!-- ✅ Tambahkan ini -->
+        <activity android:name=".ScanActivity" />
+    </application>
+
+</manifest>
