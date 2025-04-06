@@ -27,5 +27,5 @@
 
 1. Clone repositori ini:
    ```bash
-   git clone https://github.com/username/virus-checker.git
-   cd virus-checker
+   git clone https://github.com/dendve8/backdorApkChecker.git
+   cd backdorApkChecker
